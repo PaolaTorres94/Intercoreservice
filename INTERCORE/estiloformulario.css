@@ -1,0 +1,35 @@
+.form{
+	position: relative;
+	width: 300px;
+	height: 500px;
+	padding-left: 20px;
+	padding-top:25px;
+	background-color: burlywood;
+	border-radius: 20px;
+	margin: auto;
+	
+}
+input[type=text],[type=email]{
+	width: 300px;
+	height: 35px;
+	font: 16px arial;	
+	
+}
+textarea{
+	width: 300px;
+	height: 150px;
+	font: 16px arial;		
+}
+
+input[type=submit]{
+    position: relative;
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	margin-left: 100px;
+	border: 0px;
+	background-color: salmon;
+	font: 16px arial;	
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #fff;
+}

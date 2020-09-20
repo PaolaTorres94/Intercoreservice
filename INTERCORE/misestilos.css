@@ -1,0 +1,108 @@
+body{ 
+    padding-left: 8em;
+	font-family: Italic;
+    color: Black;
+    background-color: ghostwhite;
+    }
+
+	ul.menu {
+		      position: absolute;
+			  top: 0.5em;
+	          right: 6em;
+		      width: 10em;
+	       }
+		   {
+			  list-style-type: none;
+	          position: absolute;
+	          top: 6em;
+	          left: 2em;
+	          width: 20em;
+	        }
+
+	.video {
+	          position: absolute;
+	          top: 6em;
+	          left: 30em;
+	          width: 20em;
+	         }
+
+		
+	ul.logo{
+		      position: absolute;
+			  top: 0.5em;
+	          right: 6em;
+		      width: 10em;
+	       }
+
+			  
+	/*menu principal*/
+	
+	ul.menudesplegable 
+	        {
+		      position: absolute;
+			  top: 2em;
+	          left: 25em;
+			  list-style: none;
+	          padding: 0;
+			  margin: 0;
+			}
+			/*items del menu*/ 
+			.menudesplegable ul li
+			{
+			  background-color: white;
+              border-bottom: lightsalmon;		  	
+			}
+		/*Enlaces del menu deplegable*/
+		.menudesplegable ul a 
+		    {
+			display: block;
+			color: black;
+			text-decoration: none;
+			font-weight: 400;
+			font-size:0.7em;
+			padding: 10px;
+			font-family: arial;
+			text-transform: uppercase;
+			letter-spacing:1px;	
+		    }
+	
+		/*item menu*/
+			.menudesplegable ul li {
+				position: relative;
+				float: left;
+				margin: 0.5em 0.3em 0.2em;
+				padding: 0;		
+			}
+			
+		/*Efectos al pasar el mouse items menu*/
+		.menudesplegable ul li:hover {
+			background:lightsalmon;
+			}
+			/*items menu desplegable*/
+		.menudesplegable ul ul li {
+			float: left;
+			width: 70px;
+		}
+			/*caracteristicas menu desplegable*/
+		.menudesplegable ul ul {
+			display: none;
+			position: absolute;
+		    top: 100%;
+			left: 0;
+			background: ivory;
+			padding:0.1em 0.2em 0.2em 0;
+			}
+		/*enlaces menu desplegable*/
+		.menudesplegable ul ul a {
+			line-height:100%;
+			padding:0.3em 0.3em 0.2em;
+		}
+		/*efectos items menu desplegable*/
+			.menudesplegable ul li:hover> ul {
+				display:block;
+			
+		}
+			
+			
+	
+	
